@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-dell-sans: "Inter";
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 27, 46, 0.04), rgba(0, 118, 206, 0.08));
+  /*color: #001B2E*/;
+}
+
+body {
+  font-family: var(--font-dell-sans), Inter, "Helvetica Neue", "Segoe UI", sans-serif;
+  margin: 0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 118, 206, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 118, 206, 0.45);
+  border-radius: 999px;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
+}

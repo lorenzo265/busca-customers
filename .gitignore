@@ -1,0 +1,38 @@
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+.env
+.env.*
+.envrc
+
+# venvs
+env/
+venv/
+.venv/
+.env/
+.env.bak/
+
+# === Node / Next.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Next build
+.next/
+out/
+dist/
+
+# Logs
+*.log
+logs/
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
